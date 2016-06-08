@@ -1,0 +1,14 @@
+[ 2016-06-08T15:10:36+08:00 ] ::1 /ThinkCMFX/index.php?g=Admin&m=setting&a=site_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003043s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `cmf_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_options` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `cmf_options` WHERE ( option_name='site_options' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `cmf_options` SET `option_id`='2',`option_name`='site_options',`option_value`='{\"site_name\":\"\\u793e\\u533a\\u7535\\u89c6\\u9ec4\\u9875\\uff0d\\u793e\\u533a\\u4e91\\u5e73\\u53f0\",\"site_host\":\"http:\\/\\/localhost\\/\",\"site_admin_url_password\":\"\",\"site_tpl\":\"shequtv\",\"site_adminstyle\":\"bluesky\",\"site_icp\":\"\",\"site_admin_email\":\"woaitianwen@qq.com\",\"site_tongji\":\"\",\"site_copyright\":\"\",\"site_seo_title\":\"ThinkCMF\\u5185\\u5bb9\\u7ba1\\u7406\\u6846\\u67b6\",\"site_seo_keywords\":\"ThinkCMF,php,\\u5185\\u5bb9\\u7ba1\\u7406\\u6846\\u67b6,cmf,cms,\\u7b80\\u7ea6\\u98ce, simplewind,framework\",\"site_seo_description\":\"ThinkCMF\\u662f\\u7b80\\u7ea6\\u98ce\\u7f51\\u7edc\\u79d1\\u6280\\u53d1\\u5e03\\u7684\\u4e00\\u6b3e\\u7528\\u4e8e\\u5feb\\u901f\\u5f00\\u53d1\\u7684\\u5185\\u5bb9\\u7ba1\\u7406\\u6846\\u67b6\",\"urlmode\":\"0\",\"html_suffix\":\"\",\"comment_time_interval\":60}' WHERE ( option_name='site_options' ) [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `cmf_options` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `cmf_options` WHERE ( option_name='cmf_settings' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `cmf_options` SET `option_name`='cmf_settings',`option_value`='{\"banned_usernames\":\"\"}' WHERE ( option_name='cmf_settings' ) [ RunTime:0.0006s ]
+
